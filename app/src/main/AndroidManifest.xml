@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.atc">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".EventsMainPage" />
+        <activity android:name=".EventApp" />
+        <activity android:name=".ShowDoctors" />
+        <activity android:name=".ShowCoachers" />
+        <activity android:name=".WatchActivity" />
+        <activity android:name=".Stopwatch" />
+        <activity android:name=".ShowAthletes" />
+        <activity android:name=".VideoActivity" />
+        <activity android:name=".WorkoutGenerator" />
+        <activity android:name=".Workouts.Workouts" />
+        <activity
+            android:name=".UserFragment"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".Coachreatail" />
+        <activity android:name=".CoachLogin" />
+        <activity android:name=".Coach_pdf" />
+        <activity android:name=".user_type" />
+        <activity android:name=".MapsActivity" />
+        <activity android:name=".MapSecond" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCktUb8USTCMl5ki4pn9VjXC-uoCWCcnR8" />
+
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/title_activity_map" />
+        <activity android:name=".PermissionsActivity" />
+        <activity android:name=".Find_friends" />
+        <activity android:name=".Edit_profile" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".RetailerStartUpScreen" />
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity android:name=".register" />
+        <activity android:name=".Home" />
+
+        <service
+            android:name=".Notification.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Notification.MyFirebaseMessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

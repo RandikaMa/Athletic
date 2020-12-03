@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Coach_pdf">
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/angry_bt"
+
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="510dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#3B5FA8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/skip"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            tools:ignore="MissingConstraints" />
+    </com.github.barteksc.pdfviewer.PDFView>
+
+</LinearLayout>

@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">ATC</string>
+    <string name="my_athletic_coacher">My Athletic Coacher</string>
+    <string name="name">Name</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="address">Address</string>
+
+    <string name="retype_password">Retype Password</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="not_registerd_sign_in_here">Not Registerd? Sign In Here</string>
+
+    <string name="login">Login</string>
+    <string name="sign_in_here">Sign In Here</string>
+
+    <string name="be_happy">Be Happy</string>
+    <string name="next">Next</string>
+    <string name="if_you_fail_to_prepare_you_re_prepared_to_fail">“If you fail to prepare, you’re prepared to fail.”</string>
+    <string name="be_strong">Be Strong</string>
+    <string name="your_biggest_opponent_isn_t_the_other_guy">“Your biggest opponent isn’t the other guy.</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="welcome">Welcome</string>
+    <string name="textview8">TextView</string>
+    <string name="textview3">TextView</string>
+    <string name="textview9">TextView</string>
+    <string name="textview10">TextView</string>
+    <string name="textview11">TextView</string>
+    <string name="textview12">TextView</string>
+    <string name="textview13">TextView</string>
+    <string name="todo8">TODO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="www_myathleticcoacher_com">www.myathleticcoacher.com</string>
+
+    <string name="second_activity">Second Activity</string>
+
+    <string name="athletes">Athletes</string>
+    <string name="coaches">Coaches</string>
+    <string name="doctors">Doctors</string>
+    <string name="to">TODO</string>
+    <string name="my_athletic_coacherr">My Athletic Coacher</string>
+    <string name="athletic_managment_app">Athletic Managment App</string>
+
+    <string name="how_we_work">how we work</string>
+    <string name="home">Home</string>
+    <string name="workouts">Workouts</string>
+    <string name="more">More</string>
+
+    <string name="logout">Logout</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate US</string>
+    <string name="profile" />
+    <string name="not_registered_sign_in_here">Not Registered? Sign In Here</string>
+    <string name="perfomance">Perfomance</string>
+    <string name="events">Events</string>
+    <string name="therapist">Therapist</string>
+    <string name="athletic_managment_application">Athletic Managment Application</string>
+
+
+    <string name="update">Update</string>
+
+
+    <string name="randika_wimalawardhana1">randika_wimalawardhana</string>
+
+
+    <string name="randika_wimalawardhana">Randika Wimalawardhana</string>
+    <string name="_233">233</string>
+
+
+    <string name="kandy">Kandy</string>
+
+    <string name="_0768388719">0768388719</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="wimalawardanar_gmail_com">wimalawardanar@gmail.com</string>
+    <string name="emai">Emai.</string>
+    <string name="randika">Randika</string>
+
+    <string name="booking">Booking</string>
+
+    <string name="balance">Balance</string>
+    <string name="_123">123</string>
+
+    <string name="mashushanka_wimalawardhana">mashushanka_wimalawardhana</string>
+    <string name="mashushanka_wimalawardhana1">Mashushanka Wimalawardhana</string>
+
+
+    <string name="already_registered_login_here">Already Registered ? Login Here</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="_1_202_555_0157">+1-202-555-0157</string>
+    <string name="_453k">453K</string>
+    <string name="twitter">Twitter</string>
+    <string name="username">Username</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebook_com_joeytrib">facebook.com/joeytrib</string>
+    <string name="followers">followers</string>
+    <string name="_873">873</string>
+    <string name="following">following</string>
+    <string name="new_york_usa">new york, usa</string>
+    <string name="joey_tribbiani">Joey Tribbiani</string>
+
+    <string name="joey_sharenofood_com">joey@sharenofood.com</string>
+
+
+    <string name="first_name">First Name</string>
+    <string name="email">Email</string>
+
+
+    <string name="email_not_verfied">Email Not Verfied !</string>
+    <string name="profile_e">profile</string>
+    <string name="profil_e">profil_e</string>
+    <string name="button">Button</string>
+
+    <string name="email_not_verified">Email Not Verified!</string>
+    <string name="verify_now">Verify Now</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_email_address">Your Email Address</string>
+    <string name="phone">Phone</string>
+    <string name="save">Save</string>
+    <string name="todo">TODO</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="person_name">Person Name</string>
+    <string name="person_email">Person Email</string>
+    <string name="person_phone_number">Person Phone Number</string>
+    <string name="search_for_people">Search for people</string>
+    <string name="search_here">Search Here</string>
+
+    <string name="user_full_name">User Full Name</string>
+    <string name="status">Status</string>
+    <string name="listemail">TextView</string>
+    <string name="listname">TextView</string>
+    <string name="listphone">TextView</string>
+    <string name="title_activity_home2">home2</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="log_in_here">Log in here</string>
+    <string name="todo3">TODO</string>
+    <string name="permission_request">Permission Request</string>
+    <string name="atc_needs_permission_to_access_device_location_to_provide_required_services_please_allow_the_permission">ATC needs permission to access device location to provide required services.Please allow the permission</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="title_activity_map">MapActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="users">Users</string>
+    <string name="map">Map</string>
+    <string name="find_play_grounds">Find Play Grounds</string>
+    <string name="todo4">TODO</string>
+    <string name="find">Find</string>
+    <string name="google_map_key">AIzaSyCktUb8USTCMl5ki4pn9VjXC-uoCWCcnR8</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="hospital">Hospital</string>
+    <string name="school">School</string>
+    <string name="google_maps_key">AIzaSyCktUb8USTCMl5ki4pn9VjXC-uoCWCcnR8</string>
+    <string name="search_places">Search places</string>
+    <string name="select_user_type">Select User Type</string>
+    <string name="athlete">RadioButton</string>
+    <string name="coach">RadioButton</string>
+    <string name="doctor">RadioButton</string>
+    <string name="organizer">RadioButton</string>
+    <string name="r_sb">Button</string>
+    <string name="enter">Enter</string>
+    <string name="coach_id">Coach ID</string>
+    <string name="athlete1">Athlete</string>
+    <string name="coach1">Coach</string>
+    <string name="doctor1">Doctor</string>
+    <string name="organizer1">Organizer</string>
+
+    <string name="user_type">User Type</string>
+    <string name="skip">Skip</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="hello">Hello</string>
+    <string name="hello1">hello</string>
+    <string name="hello2">hello</string>
+    <string name="profile1">Profile</string>
+    <string name="seen">seen</string>
+    <string name="create_workout">Create Workout</string>
+    <string name="exercise">Exercise</string>
+    <string name="guide">Guide</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="height">height</string>
+    <string name="age">age</string>
+    <string name="weight">weight</string>
+    <string name="selfassess">selfassess</string>
+    <string name="gotoexerciselibrary">GoToExerciseLibrary</string>
+    <string name="generate">Generate</string>
+    <string name="textview">TextView</string>
+    <string name="title">Title</string>
+    <string name="event">Event</string>
+
+    <string name="name1">name</string>
+    <string name="location">Location</string>
+    <string name="join">JOIN</string>
+    <string name="date">Date</string>
+    <string name="dj_party">Dj party</string>
+
+    <string name="are_interested">are interested</string>
+    <string name="_135">+135</string>
+    <string name="jhon_wick">Jhon Wick</string>
+    <string name="_15_06_2020">15.06.2020</string>
+    <string name="time">Time</string>
+    <string name="_12_00_am">12:00 AM</string>
+    <string name="description">Description</string>
+    <string name="creator">Creator</string>
+    <string name="desc">Desc</string>
+
+
+</resources>

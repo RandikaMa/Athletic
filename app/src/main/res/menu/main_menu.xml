@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <group>
+            <item
+                android:id="@+id/nav_num"
+                android:icon="@drawable/home"
+                android:title="@string/home" />
+
+            <item
+                android:id="@+id/me"
+                android:icon="@drawable/workout"
+                android:title="@string/workouts" />
+
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/message"
+                android:title="Athletes" />
+
+            <item
+                android:id="@+id/nav_home1"
+                android:icon="@drawable/message"
+                android:title="Coaches" />
+
+            <item
+                android:id="@+id/nav_home2"
+                android:icon="@drawable/message"
+                android:title="Doctors" />
+
+                    </group>
+
+
+        <item android:title="@string/profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                android:id="@+id/men"
+                android:icon="@drawable/login"
+                android:title="@string/map" />
+
+                <item
+                    android:id="@+id/nu"
+                    android:icon="@drawable/profile"
+                    android:title="@string/profile_e" />
+
+                <item
+                    android:id="@+id/mm"
+                    android:icon="@drawable/vid"
+                    android:title="Videos" />
+
+    </group>
+        </menu>
+        </item>
+
+    <item android:title="Additional">
+
+        <menu>
+
+
+
+            <item
+                android:id="@+id/Final"
+                android:title="Stopwatch"
+                android:icon="@drawable/stop"/>
+            <item
+                android:id="@+id/Fin"
+                android:title="@string/rate_us"
+                android:icon="@drawable/rat"/>
+
+
+        </menu>
+    </item>
+</menu>
+
