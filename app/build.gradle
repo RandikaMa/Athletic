@@ -6,7 +6,10 @@ apply plugin: 'org.jetbrains.kotlin.android'
 android {
     namespace 'com.example.atc'
     compileSdk 34
-
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
     defaultConfig {
         applicationId "com.example.atc"
         minSdk 21
