@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.atc">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -51,7 +50,8 @@
         <activity android:name=".Edit_profile" />
         <activity android:name=".UserProfile" />
         <activity android:name=".RetailerStartUpScreen" />
-        <activity android:name=".Welcome">
+        <activity android:name=".Welcome"
+                  android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -82,6 +82,9 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <activity
+            android:name=".HomeComposeActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

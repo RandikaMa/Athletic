@@ -84,7 +84,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
 
 
-       /* rippleBg = findViewById(R.id.ripple_bg);*/
+       rippleBg = findViewById(R.id.ripple_bg);
 
         SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.map);
         assert mapFragment != null;

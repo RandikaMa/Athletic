@@ -20,14 +20,14 @@ public class user_type extends AppCompatActivity {
         AlertDialog alertDialog1 = new AlertDialog.Builder(
                 user_type.this).create();
 
-        // Setting Dialog Title
-        alertDialog1.setTitle("Alert Dialog");
+        // // Setting Dialog Title
+        // alertDialog1.setTitle("Alert Dialog");
 
-        // Setting Dialog Message
-        alertDialog1.setMessage("Please Select The Type Of User");
+        // // Setting Dialog Message
+        // alertDialog1.setMessage("Please Select The Type Of User");
 
-        // Showing Alert Message
-        alertDialog1.show();
+        // // Showing Alert Message
+        // alertDialog1.show();
 
 
         Button buttonOne = findViewById(R.id.angry_btn);

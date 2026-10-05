@@ -150,7 +150,7 @@ public class register extends AppCompatActivity {
                             });
 
 
-                            startActivity(new Intent(getApplicationContext(),Home.class));
+                            startActivity(new Intent(getApplicationContext(),HomeComposeActivity.class));
 
                         }else {
                             Toast.makeText(register.this, "Error ! " + Objects.requireNonNull(task.getException()).getMessage(), Toast.LENGTH_SHORT).show();

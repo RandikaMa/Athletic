@@ -39,7 +39,7 @@ public class login extends AppCompatActivity {
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
 
         if(fAuth.getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(),Home.class));
+            startActivity(new Intent(getApplicationContext(),HomeComposeActivity.class));
             finish();
         }
     }
@@ -93,7 +93,7 @@ public class login extends AppCompatActivity {
                     public void onComplete(Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(login.this, "Logged in Successfully", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(),Home.class));
+                            startActivity(new Intent(getApplicationContext(),HomeComposeActivity.class));
                         }else {
                             Toast.makeText(login.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                             progressBar.setVisibility(View.GONE);
